@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Author" content="">
+        <meta name="keywords" content="">
+        <meta name="Description" content="">
+        <link rel="stylesheet" href="pizza.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <title>Berly-Pizza</title>
+        <script>
+            function berlyMenu(){
+                var berly=document.getElementById('berly');
+                if(window.pageYOffset > 200){
+                    berly.classList.add('berly');
+                }
+            
+            else{
+                berly.classList.remove('berly');
+
+            }
+            }
+            window.onscroll= function(){
+                berlyMenu();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="parallax">
+        <div class="page-title">
+        <span style="color:#c7d065">B</span>
+        <span style="color:#f038a0">E</span>
+        <span style="color:#317da0">R</span>
+        <span style="color:#f6f5f8">L</span>
+        <span style="color:#d6aee8">Y</span>
+        <span style="color:#e3314c"><i class="fas fa-pizza-slice"></i></span>
+        <span style="color:#29df1fa9">P</span>
+        <span style="color:#ff0000">I</span>
+        <span style="color:#28d1d4">Z</span>
+        <span style="color:#226ebf">Z</span>
+        <span style="color:#97df4f">A</span>
+       </div>
+        
+
+        </div>
+
+        <div class="menu" id="berly">
+            <ul class="menu-ul">
+                <a href="index.html" class="a-menu"><li><Strong>Accueil</Strong></li></a>
+                <a href="#" class="a-menu"><li><Strong>Pizza</Strong></li></a>
+                <a href="maison.html" class="a-menu"><li><Strong>Maison</Strong></li></a>
+                <a href="Info.html" class="a-menu"><li><Strong>Info-personel</Strong></li></a>
+                <a href="loisirs.html" class="a-menu"><li><Strong>Loisirs</Strong></li></a>
+            </ul>
+            <div class="search-box">
+                <form>
+                    <input type="text" placeholder="Search...." name="search"
+                    class="search-input"/>
+                    <button type="Submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+      
+      
+        <body>
+            <h3> Recette Pizza </h3>
+            <table cellspacing="0"
+            width="400px" >
+                <tr>
+                    <div class="titre">
+                            <th><i>Pizza</i></th>
+                            <th><i>taille</i></th>
+                            <th><i>prix</i></th>
+                            <th><i>Ingrediant</i></th>
+                    </div>
+                </tr>
+               
+                <tr>
+                    <td><img src="image/pizza-antillaise.jpg" alt=""></img>
+                        <h5>Pizsa Margherita</h5>
+                        <p>C'est l'une des plus Ancienne Pizza italienne avec la Marinara .</p>
+                        <button class="btn">Ajouter</button></td>
+                    <td> <h2>Enfant</h2>24cm
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td><h4>250HTG</h4>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td>  <p>150g. pate de pain.  Sauce tomate, feuille basilic, Olive</p>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="image/pizza-nationale.jpg" alt=""></img>
+                        <h5>Pizsa quatre formage</h5>
+                        <p>ce pizza a une patte plus fine et plus croustillante que la marquerita.</p>
+                        <button class="btn">Ajouter</button>
+                    </td>
+                    <td><h2>Moyen</h2>26cm
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td><h4>300HTG</h4>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td><p>1 pâte à pizza
+                        200 g de coulis de tomates spécial pizza
+                        65 g de cheddar
+                        40 g de comté
+                        50 g de bleu (ou de gorgonzola)
+                        1 boule de mozzarella
+                        basilic</p>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="image/pizza-simple.jpg" alt=""></img>
+                        <h5>La Calzone</h5>
+                        <p>La Calzone est une pizza classique que l'on plie en deux</p>
+                    <button class="btn">Ajouter</button>
+                    </td>
+                    <td><h2>Normal</h2>31cm
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td><h4>450HTG</h4>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td><p>Pâte à pizza maison ou non 1 · Sauce tomate maison (recette classique marinara ) ou non 100 ml · Mozzarella râpée 60 g · Parmesan 15 g · Jambon cru</p>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><img src="image/pizza-nationale.jpg" alt="" ></img>
+                        <h5>La vegetatienne</h5>
+                        <p>cCe n'est pas peut-etre le pizza qui le plus envis, poutant bien prefere c'est un variete delicieux.</p>
+                        <button class="btn">Ajouter</button>
+                    </td>
+                    <td><h2>Grand</h2>33cm
+                        <button class="btn">Ajouter</button></td>
+                     </td>
+                    <td><h4>510HTG</h4>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                    <td><p>Ingrédients pour 2 à 3 boules de pâte à pizza. 500 g de farine de blé blanche (T55) [1]; 5 g de levure sèche de boulangerie (1 sachet) [2]; eau tiède; sel </p>>
+                        <button class="btn">Ajouter</button></td>
+                    </td>
+                </tr>
+                
+                
+            </table>
+        </body>
+            
+    </body>
+</html> 

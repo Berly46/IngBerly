@@ -1,0 +1,298 @@
+
+:root{
+    --clr1: #f95b11;
+    --clr2: #fff;
+    --clr3:#000;
+    --clr4: #f42f1c;
+    --clr5: limegreen;
+}
+:after{
+    margin:0;
+    font-family: system-ui;
+}
+.parallax{
+    background-image: url('image/pizza-anglaise.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.html{
+    padding: auto;
+    margin: auto;
+}
+.page-title{
+
+    color:white;
+   
+    background-color: rgba(0,0,0,0.5);
+    text-align:center;
+    padding:2%;
+    font-variant: small-caps;
+    font-size: 80px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+.fa-pizza-slice{
+    animation: icon 5s ease infinite;
+    color:rgb(249, 54, 54);
+    padding: 2%; 
+    font-variant: small-caps;
+    font-size: 70px;
+    font-family: fantasy;
+    letter-spacing: 0.5%;
+    
+    
+}
+@keyframes icon{
+    25%{
+        transform: translateY(-1.5rem);
+    }
+    50% { transform:translateY(1.5rem) ;
+    }
+ }
+.berly{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.menu{
+    background:var(--clr1);
+    text-align: center;
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+}
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+.a-menu{
+
+    text-decoration:none;
+    color: white;
+}
+.menu-ul li:hover{
+ background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+    transform: (1.1);
+
+}
+.search-box{
+    border:1px solid white;
+    width: max-content;
+    border-radius: 50px;
+    background: white;
+    display: inline-block;
+    margin: 8px;
+}
+.search-box:hover{
+    box-shadow:0 0 10px 2px var(--clr4);
+    border: 1px solid var(--clr4);
+    background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+}
+.search-input{
+    width: 250px;
+    border:none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 5px 0 0 10px;
+}
+i{
+    font-size: 20px;
+    margin: 0 10px 0 0 ;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.container{
+    background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+
+}
+.deal-comtainer{
+    background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+}
+.container{
+    margin: 1% 0px 0px 0px;
+    /*width: 90%;*/
+    text-align: center;
+}
+.categories{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.categories:hover{
+    box-shadow: 0 0 10px 3px var(--clr4);
+}
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.title{
+ padding: 50px;
+ font-size: 50px;
+ font-weight: bold;
+ letter-spacing: 10px;
+ color: white;
+ background: rgba(0, 0, 0, 0.5);
+ text-align: center;
+ 
+}
+.deal{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background: linear-gradient(120deg,#16817a 20%, #cee397 50%, #16817a 80%);
+    
+
+}
+.coupon-btn{
+    border: 1px solide white;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+.coupon-btn:hover{
+    box-shadow: 0 0 10px 5px white inset;
+
+}
+.copyright{
+    display: flex;
+    
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: space-between;
+    background: #fff;
+    background-color: #165a72;
+    height: max-content;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.copyright i{
+    font-size: 2rem;
+    color:white;
+
+}
+.copyright p{
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    color: white;
+}
+.social i{
+    padding: .5rem;
+    color: var(--clr4);
+    font-size: 1.5rem;
+    text-align:center;
+    color: white;
+    letter-spacing: 10px;
+}
+.social i:hover{
+    transform: translateY(.2rem);
+    color: var(--clr2);
+    cursor: pointer;
+    transition: 1s ease;
+    background: linear-gradient(120deg,#16817a 20%, #cee397 50%, #16817a 80%);
+    font-weight: bold;
+    
+
+    }
+    /*pizza recette*/
+    h3{
+        width: 30px;
+        text-shadow:  #ba0eb7;
+        background-image: url("image/pizza3.jpg");
+        color: gray;
+        float: center;
+    }
+    .titre h4{
+        color: antiquewhite;
+    }
+    th{
+        width: 25%;
+        height: 25%;
+    }
+    tr{
+        background-color: gray;
+        align-items: center;
+        text-align: center;
+    }
+    table{
+        background-color: #e78e8e;
+        margin: 0 5% 5% 5%;
+        box-shadow: #184d47;
+        padding: 0;
+        
+    }
+    .btn{
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+        align-items: center;
+        position:relative;
+        text-shadow: 2px 2px 0 0 #ba0eb7;
+        
+        background:white;
+        border: none;
+        border-radius: .5rem;
+        box-shadow: 0 2rem 2rem rgba(0,0,0.1);
+        cursor: pointer;
+        transition: all .3s ease;
+        outline: none;
+        text-transform: capitalize;
+    }
+    .btn:hover{
+        background-color: #f42f1c;
+        box-shadow: 0 2rem 2rem  #f42f1c;
+        color: white;
+        transform: translateY(.1rem);
+    }
+  .titre  i{
+    background-color: #fff;
+    box-shadow: 2px 2px 0 0  #7187b4;
+    border-radius: 2px 2px 2px 2px ;
+   
+   }
+   
+
+   td{
+    height: 150px;
+    width: 200px;
+    
+   }
+   table{
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+   }

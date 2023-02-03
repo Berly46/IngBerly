@@ -1,0 +1,183 @@
+
+:root{
+   --clr1: #f95b11;
+   --clr2: #fff;
+   --clr3:#000;
+   --clr4: #f42f1c;
+   --clr5: limegreen;
+}
+:after{
+   margin:0;
+   font-family: system-ui;
+}
+.parallax{
+   background-image: url('image/pizza-anglaise.jpg');
+   
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.html{
+   padding: auto;
+   margin: auto;
+}
+.page-title{
+
+   color:white;
+  
+   background-color: rgba(0,0,0,0.5);
+   text-align:center;
+   padding:2%;
+   font-variant: small-caps;
+   font-size: 80px;
+   font-family: fantasy;
+   letter-spacing: 1px;
+}
+.fa-pizza-slice{
+   animation: icon 5s ease infinite;
+   color:rgb(249, 54, 54);
+   padding: 2%; 
+   font-variant: small-caps;
+   font-size: 70px;
+   font-family: fantasy;
+   letter-spacing: 0.5%;
+   
+   
+}
+@keyframes icon{
+   25%{
+       transform: translateY(-1.5rem);
+   }
+   50% { transform:translateY(1.5rem) ;
+   }
+}
+.berly{
+   position: fixed;
+   top:0;
+   width: 100%;
+}
+
+.menu{
+   background:var(--clr1);
+   text-align: center;
+}
+.menu-ul{
+   margin: 0;
+   padding: 0;
+   display: inline;
+
+}
+.menu-ul li{
+   font-size: 17px;
+   list-style: none;
+   display: inline-block;
+   padding: 25px 25px 26px 25px;
+}
+.a-menu{
+
+   text-decoration:none;
+   color: white;
+}
+.menu-ul li:hover{
+background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+   transform: (1.1);
+
+}
+.search-box{
+   border:1px solid white;
+   width: max-content;
+   border-radius: 50px;
+   background: white;
+   display: inline-block;
+   margin: 8px;
+}
+.search-box:hover{
+   box-shadow:0 0 10px 2px var(--clr4);
+   border: 1px solid var(--clr4);
+   background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+}
+.search-input{
+   width: 250px;
+   border:none;
+   font-size: 16px;
+   outline: none;
+   background: transparent;
+   margin: 5px 0 0 10px;
+}
+
+
+.container{
+   background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+
+}
+.deal-comtainer{
+   background: linear-gradient(120deg,#ba0eb7 20%, #c697e3 50%, #e78e8e 80%);
+}
+.container{
+   margin: 1% 0px 0px 0px;
+   /*width: 90%;*/
+   text-align: center;
+}
+.categories{
+   width: max-content;
+   margin: 25px;
+   border: 1px solid #184d47;
+   border-radius: 0 0 50px 50px;
+   display: inline-block;
+}
+.categories:hover{
+   box-shadow: 0 0 10px 3px var(--clr4);
+}
+.item-image{
+height: 200px;
+   width: 200px;
+ border-radius: 0 0  50px 50px ;
+   padding: 10px;
+}
+
+
+video{
+   height: 300px;
+   width: 300px;
+   padding: 10px;
+}
+.image-title{
+   text-align: center;
+   padding: 10px;
+   font-weight: bold;
+   color: white;
+   text-decoration: underline;
+}
+a{
+   text-decoration: none;
+}
+.title{
+padding: 50px;
+font-size: 50px;
+font-weight: bold;
+letter-spacing: 10px;
+color: white;
+background: rgba(0, 0, 0, 0.5);
+text-align: center;
+
+
+}
+.in-blog-icon{
+   letter-spacing: 2px;
+   margin: auto;
+   word-spacing: 2px;
+   color: white;
+}
+.fas{
+   color: white;
+   margin: auto;
+   padding: auto;
+}
+@keyframes videos{
+   25%{
+       transform: translateY(-1.5rem);
+   }
+   50% { transform:translateY(1.5rem) ;
+   }
+}

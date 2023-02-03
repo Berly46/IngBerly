@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Author" content="">
+        <meta name="keywords" content="">
+        <meta name="Description" content="">
+        <link rel="stylesheet" href="pizza.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <title>Berly-Pizza</title>
+        <script>
+            function berlyMenu(){
+                var berly=document.getElementById('berly');
+                if(window.pageYOffset > 200){
+                    berly.classList.add('berly');
+                }
+            
+            else{
+                berly.classList.remove('berly');
+
+            }
+            }
+            window.onscroll= function(){
+                berlyMenu();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="parallax">
+        <div class="page-title">
+        <span style="color:#c7d065">B</span>
+        <span style="color:#f038a0">E</span>
+        <span style="color:#317da0">R</span>
+        <span style="color:#f6f5f8">L</span>
+        <span style="color:#d6aee8">Y</span>
+        <span style="color:#e3314c"><i class="fas fa-pizza-slice"></i></span>
+        <span style="color:#29df1fa9">P</span>
+        <span style="color:#ff0000">I</span>
+        <span style="color:#28d1d4">Z</span>
+        <span style="color:#226ebf">Z</span>
+        <span style="color:#97df4f">A</span>
+       </div>
+        
+
+        </div>
+
+        <div class="menu" id="berly">
+            <ul class="menu-ul">
+                <a href="#" class="a-menu"><li><Strong>Accueil</Strong></li></a>
+                <a href="pizza.html" class="a-menu"><li><Strong>Pizza</Strong></li></a>
+                <a href="maison.html" class="a-menu"><li><Strong>Maison</Strong></li></a>
+                <a href="Info.html" class="a-menu"><li><Strong>Info-personel</Strong></li></a>
+                <a href="loisirs.html" class="a-menu"><li><Strong>Loisirs</Strong></li></a>
+            </ul>
+            <div class="search-box">
+                <form>
+                    <input type="text" placeholder="Search...." name="search"
+                    class="search-input"/>
+                    <button type="Submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <!----Home page-->
+        <div class="container">
+            <a href="#">
+                <div class="categories">
+                    <img src="image/pizza-anglaise.jpg" class="item-image"/>
+                    <div class="image-title"> Poulet</div>
+                </div>
+            </a>
+            <a href="#vegetables">
+                <div class="categories">
+                    <img src="image/pizza-antillaise.jpg" class="item-image"/>
+                    <div class="image-title"> Original</div>
+                </div>
+            </a>
+            <a href="#vegetables">
+                <div class="categories">
+                    <img src="image/pizza-nationale.jpg" class="item-image"/>
+                    <div class="image-title">Rezin</div>
+                </div>
+            </a>
+           
+            </a>
+        </div>
+        <!---deal begins------->
+        <div class="deal-comtainer" id="deals">
+            <div class="parallax">
+                <div class="title">SERVICE</div>
+            </div>
+
+            <div class="container">
+               
+            </a>
+                <a href="#">
+                    <div class="categories">
+                        <img src="image/pizaremove - Copy.png" class="item-image"/>
+                        <div class="image-title"> Bonne qualite</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="categories">
+                        <img src="image/payment.jpg" class="item-image"/>
+                        <div class="image-title"> payment online</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="categories">
+                        <img src="image/delivery.jpg" class="item-image"/>
+                        <div class="image-title">Livraison</div>
+                    </div>
+                </a>
+               
+                </a>
+
+           <div class="copyright">
+            <p>Berly&copy;melodie</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-google-plus"></i>
+            </div>
+
+           </div>
+           
+        </div>
+       
+    </body>
+</html>
